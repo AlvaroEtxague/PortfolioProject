@@ -21,24 +21,111 @@
       crossorigin="anonymous"
     />
 
+    <!-- Hover CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+      integrity="sha512-csw0Ma4oXCAgd/d4nTcpoEoz4nYvvnk21a8VA2h2dzhPAvjbUIK6V3si7/g/HehwdunqqW18RwCJKpD7rL67Xg=="
+      crossorigin="anonymous"
+    />
+
     <!-- My Custom CSS -->
     <link rel="stylesheet" href="./css/style.css" />
 
-    <title>My Web</title>
+    <title>Tino Molinari - Full Stack Web Dev</title>
   </head>
   <body>
     <!-- Core HTML Here -->
-    <header><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, sit.</p></header>
+    <header>
+      <div class="row no-gutters">
+        <a href="index.html" class="col-md-4 logo"></a>
+        <div class="col-md-8">
+          <div class="row no-gutters bg-color-name-title">
+            <div class="col heading">
+              <h1 class="name">Tino Molinari</h1>
+              <h2 class="title">Full Stack Developer</h2>
+            </div>
+          </div>
+          <div class="row no-gutters">
+            <div class="col">
+              <ul id="nav" class="list-inline menucontainer">
+                <li class="col-6 col-sm-3 list-inline-item menu-item">
+                  <a class="hvr-sweep-to-bottom ui-menu-color-home" href="#"
+                    ><i class="fas fa-home" aria-hidden="true"></i><span> Home</span></a
+                  >
+                </li>
+                <li class="col-6 col-sm-3 list-inline-item menu-item">
+                  <a class="hvr-sweep-to-bottom ui-menu-color-resume" href="#"
+                    ><i class="fas fa-graduation-cap" aria-hidden="true"></i><span> Resume</span></a
+                  >
+                </li>
+                <li class="col-6 col-sm-3 list-inline-item menu-item">
+                  <a class="hvr-sweep-to-bottom ui-menu-color-contact" href="#"
+                    ><i class="fas fa-envelope-square" aria-hidden="true"></i><span> Contact</span></a
+                  >
+                </li>
+                <li class="col-6 col-sm-3 list-inline-item menu-item">
+                  <a class="hvr-sweep-to-bottom ui-menu-color-download" href="#"
+                    ><i class="fas fa-cloud-download-alt" aria-hidden="true"></i><span> Download</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
     <section>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum culpa illum magni consequatur modi dolore,
-        vero excepturi quibusdam id.
-      </p>
+      <p>Section</p>
     </section>
 
-    <footer>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, magni.</p>
+    <footer class="container-fluid">
+      <div id="footer-details" class="row">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-subheading">About</h5>
+          <p class="inline-block">
+            I'm a Spain based Full Stack Software Developer focused on crafting awesome user-friendly experiences.
+          </p>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="uppercase general-subheading">Download</h5>
+          <p class="inline-block">
+            Need a printable version of my CV? Download it here.
+            <a href="#" target="_blank" class="cv-pdf hvr-icon-grow">
+              <i class="fas fa-cloud-download-alt hvr-icon" aria-hidden="true"></i>
+              <span class="sr-only">Download Link</span>
+            </a>
+          </p>
+        </div>
+
+        <div class="col-sm-4">
+          <h5 class="uppercase general-subheading">Social</h5>
+          <ul class="list-inline social-links">
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
+                <i class="fab fa-facebook" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                <span class="sr-only">LinkedIn</span>
+              </a>
+            </li>
+
+            <li class="list-inline-item">
+              <a target="_blank" href="#">
+                <i class="fab fa-github" aria-hidden="true"></i>
+                <span class="sr-only">Github</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
