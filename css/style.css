@@ -121,6 +121,13 @@ section {
   margin: 30px 0;
 }
 
+.personalinfo-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 30px 0;
+  color: #dfe6e9;
+}
+
 /*---------------------------------three reasons*/
 .three-reasons-icon {
   font-size: 26px;
@@ -233,6 +240,10 @@ h5 {
   background-color: #0984e3;
 }
 
+.bg-color-contact {
+  background-color: #dfe6e9;
+}
+
 /*----------------personal info*/
 
 .personal-info-item {
@@ -250,6 +261,7 @@ h5 {
 .personal-info-item .key p,
 .personal-info-item .value p {
   margin: 0;
+  color: #dfe6e9;
 }
 
 .personal-info-item .key {
@@ -268,6 +280,14 @@ h5 {
 }
 
 /*------------------------------------skills*/
+.my-skills-icon {
+  font-size: 26px;
+  color: #00b894;
+}
+
+.my-skills-heading {
+  margin-bottom: 15px;
+}
 
 .progress {
   position: relative;
@@ -335,4 +355,63 @@ h5 {
 
 .history-items {
   margin-bottom: 20px;
+}
+
+.bg-color-0 {
+  background-color: #0984e3;
+}
+
+.bg-color-1 {
+  background-color: #6c5ce7;
+}
+
+.bg-color-2 {
+  background-color: #2d3436;
+}
+
+.bg-color-3 {
+  background-color: #d63031;
+}
+
+.bg-color-4 {
+  background-color: #fdcb6e;
+}
+
+.bg-color-5 {
+  background-color: #e17055;
+}
+
+.bg-color-6 {
+  background-color: #00b894;
+}
+
+/*--------------------------------------Contact Form*/
+.contact-heading {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 20px 0;
+  color: #2d3436;
+}
+
+.center-form {
+  padding-top: 10px;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+button[type='submit'] {
+  margin: 20px 0;
+  color: #dfe6e9;
+  background-color: #00b894;
+  border: none;
+  border-radius: 23px;
+}
+
+@media (min-width: 992px) {
+  .center-form {
+    padding-top: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
 }

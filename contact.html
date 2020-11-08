@@ -50,22 +50,22 @@
             <div class="col">
               <ul id="nav" class="list-inline menucontainer">
                 <li class="col-6 col-sm-3 list-inline-item menu-item">
-                  <a class="hvr-sweep-to-bottom ui-menu-color-home" href="#"
+                  <a class="hvr-sweep-to-bottom ui-menu-color-home" href="index.html"
                     ><i class="fas fa-home" aria-hidden="true"></i><span> Home</span></a
                   >
                 </li>
                 <li class="col-6 col-sm-3 list-inline-item menu-item">
-                  <a class="hvr-sweep-to-bottom ui-menu-color-resume" href="#"
+                  <a class="hvr-sweep-to-bottom ui-menu-color-resume" href="resume.html"
                     ><i class="fas fa-graduation-cap" aria-hidden="true"></i><span> Resume</span></a
                   >
                 </li>
                 <li class="col-6 col-sm-3 list-inline-item menu-item">
-                  <a class="hvr-sweep-to-bottom ui-menu-color-contact" href="#"
+                  <a class="hvr-sweep-to-bottom ui-menu-color-contact" href="contact.html"
                     ><i class="fas fa-envelope-square" aria-hidden="true"></i><span> Contact</span></a
                   >
                 </li>
                 <li class="col-6 col-sm-3 list-inline-item menu-item">
-                  <a class="hvr-sweep-to-bottom ui-menu-color-download" href="#"
+                  <a class="hvr-sweep-to-bottom ui-menu-color-download" href="./cv/SampleCV.pdf" target="_blank"
                     ><i class="fas fa-cloud-download-alt" aria-hidden="true"></i><span> Download</span></a
                   >
                 </li>
@@ -76,8 +76,41 @@
       </div>
     </header>
 
-    <section>
-      <p>Section</p>
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <div class="col">
+          <h3 class="contact-heading uppercase text-center">Got a project in mind?</h3>
+          <h5 class="uppercase text-center">Let's work together!</h5>
+          <div class="center-form">
+            <form>
+              <div class="form-group">
+                <input type="text" name="fullname" id="fullname" class="form-control" placeholder="Name" required />
+              </div>
+
+              <div class="form-group">
+                <input type="email" name="email" id="email" class="form-control" placeholder="Email" required />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  name="project-summary"
+                  id="project-summary"
+                  rows="5"
+                  placeholder="Project Description"
+                  class="form-control"
+                  required
+                ></textarea>
+              </div>
+
+              <div class="row text-center">
+                <div class="col">
+                  <button type="submit" class="btn btn-secondary">Send Project Request</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer class="container-fluid">
@@ -85,7 +118,7 @@
         <div class="col-sm-4">
           <h5 class="uppercase general-subheading">About</h5>
           <p class="inline-block">
-            I'm a Spain based Full Stack Software Developer focused on crafting awesome user-friendly experiences.
+            I'm a Dublin based Full Stack Software Developer focused on crafting awesome user-friendly experiences.
           </p>
         </div>
 
@@ -93,7 +126,7 @@
           <h5 class="uppercase general-subheading">Download</h5>
           <p class="inline-block">
             Need a printable version of my CV? Download it here.
-            <a href="#" target="_blank" class="cv-pdf hvr-icon-grow">
+            <a href="./cv/SampleCV.pdf" target="_blank" class="cv-pdf hvr-icon-grow">
               <i class="fas fa-cloud-download-alt hvr-icon" aria-hidden="true"></i>
               <span class="sr-only">Download Link</span>
             </a>
