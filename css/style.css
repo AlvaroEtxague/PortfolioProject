@@ -389,7 +389,7 @@ h5 {
 .contact-heading {
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
-  margin: 20px 0;
+  margin: 15px 0;
   color: #2d3436;
 }
 
@@ -400,11 +400,15 @@ h5 {
 }
 
 button[type='submit'] {
-  margin: 20px 0;
+  margin: 15px 0;
   color: #dfe6e9;
   background-color: #00b894;
   border: none;
   border-radius: 23px;
+}
+
+.text-area-control {
+  margin: 0;
 }
 
 @media (min-width: 992px) {
